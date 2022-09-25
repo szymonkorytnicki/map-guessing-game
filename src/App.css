@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.country {
+  /* width: 500px;
+  height: 500px; */
+  mask-size:contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+
+  background: linear-gradient(#fff, #fff 50%, #2ecc71 50%, #2ecc71);
+  background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: background-position 5s linear;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.animate {
+  background-position: 100% 100%;
+}
+
+.country img {
+  visibility: hidden;
+}
+
+.input {
+  position: fixed;
+  bottom:20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input input {
+  font-size: 24px;
+}
